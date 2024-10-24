@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-DataSet1",
+      "appliesTo": "DataSet1.xsd",
+      "type": "launch"
+    }
+  ]
+}

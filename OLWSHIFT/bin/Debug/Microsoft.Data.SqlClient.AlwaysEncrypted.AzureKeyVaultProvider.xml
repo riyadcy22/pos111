@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider</name>
+    </assembly>
+    <members>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AKVEventSource.Keywords.Trace">
+            <summary>
+            Captures basic application flow trace events.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AKVEventSource.Keywords.Scope">
+            <summary>
+            Captures basic application scope entering and exiting events.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AKVEventSource.Tasks">
+            <summary>
+            Tasks supported by AKV Provider's EventSource implementation
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AKVEventSource.Tasks.Scope">
+            <summary>
+            Task that tracks trace scope.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.TokenCredential">
+            <summary>
+            TokenCredential to be used with the KeyClient
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer._keyClientDictionary">
+            <summary>
+            A mapping of the KeyClient objects to the corresponding Azure Key Vault URI
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer._keyFetchTaskDictionary">
+            <summary>
+            Holds references to the fetch key tasks and maps them to their corresponding Azure Key Vault Key Identifier (URI).
+            These tasks will be used for returning the key in the event that the fetch task has not finished depositing the 
+            key into the key dictionary.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer._keyDictionary">
+            <summary>
+            Holds references to the Azure Key Vault keys and maps them to their corresponding Azure Key Vault Key Identifier (URI).
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer._cryptoClientDictionary">
+            <summary>
+            Holds references to the Azure Key Vault CryptographyClient objects and maps them to their corresponding Azure Key Vault Key Identifier (URI).
+            </summary>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.#ctor(Azure.Core.TokenCredential)">
+            <summary>
+            Constructs a new KeyCryptographer
+            </summary>
+            <param name="tokenCredential"></param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.AddKey(System.String)">
+            <summary>
+            Adds the key, specified by the Key Identifier URI, to the cache.
+            </summary>
+            <param name="keyIdentifierUri"></param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.GetKey(System.String)">
+            <summary>
+            Returns the key specified by the Key Identifier URI
+            </summary>
+            <param name="keyIdentifierUri"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.GetKeySize(System.String)">
+            <summary>
+            Gets the public Key size in bytes.
+            </summary>
+            <param name="keyIdentifierUri">The key vault key identifier URI</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.SignData(System.Byte[],System.String)">
+            <summary>
+            Generates signature based on RSA PKCS#v1.5 scheme using a specified Azure Key Vault Key URL. 
+            </summary>
+            <param name="message">The data to sign</param>
+            <param name="keyIdentifierUri">The key vault key identifier URI</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.FetchKey(System.Uri,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="vaultUri">The Azure Key Vault URI</param>
+            <param name="keyName">The name of the Azure Key Vault key</param>
+            <param name="keyVersion">The version of the Azure Key Vault key</param>
+            <param name="keyResourceUri">The Azure Key Vault key identifier</param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.FetchKeyFromKeyVault(System.Uri,System.String,System.String)">
+            <summary>
+            Looks up the KeyClient object by it's URI and then fetches the key by name.
+            </summary>
+            <param name="vaultUri">The Azure Key Vault URI</param>
+            <param name="keyName">Then name of the key</param>
+            <param name="keyVersion">Then version of the key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.ValidateRsaKey(Azure.Security.KeyVault.Keys.KeyVaultKey)">
+            <summary>
+            Validates that a key is of type RSA
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.CreateKeyClient(System.Uri)">
+            <summary>
+            Instantiates and adds a KeyClient to the KeyClient dictionary
+            </summary>
+            <param name="vaultUri">The Azure Key Vault URI</param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.AzureSqlKeyCryptographer.ParseAKVPath(System.String,System.Uri@,System.String@,System.String@)">
+            <summary>
+            Validates and parses the Azure Key Vault URI and key name.
+            </summary>
+            <param name="masterKeyPath">The Azure Key Vault key identifier</param>
+            <param name="vaultUri">The Azure Key Vault URI</param>
+            <param name="masterKeyName">The name of the key</param>
+            <param name="masterKeyVersion">The version of the key</param>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Constants.AzureKeyVaultPublicDomainNames">
+            <summary>
+            Azure Key Vault Domain Name
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Constants.AeParamColumnEncryptionKey">
+            <summary>
+            Always Encrypted Parameter names for exec handling
+            </summary>
+        </member>
+        <member name="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2">
+            <summary>
+            LocalCache is to reuse heavy objects.
+            When performing a heavy creation operation, we will save the result in our cache container.
+            The next time that we need that result, we will pull it from the cache container, instead of performing the heavy operation again.
+            It is used for decrypting CEKs and verifying CMK metadata. Encrypted CEKs and signatures are different every time, even 
+            when done with the same key, and should not be cached.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2._cache">
+            <summary>
+            A simple thread-safe implementation of an in-memory Cache.
+            When the process dies, the cache dies with it.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2.TimeToLive">
+            <summary>
+            Sets an absolute expiration time, relative to now.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2.Count">
+            <summary>
+            Gets the count of the current entries for diagnostic purposes.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2.#ctor(System.Int32)">
+            <summary>
+            Constructs a new <see cref="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2">LocalCache</see> object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2.GetOrCreate(`0,System.Func{`1})">
+            <summary>
+            Looks for the cache entry that maps to the <paramref name="key"/> value. If it exists (cache hit) it will simply be
+            returned. Otherwise, the <paramref name="createItem"/> delegate function will be invoked to create the value. 
+            It will then get stored it in the cache and set the time-to-live before getting returned.
+            </summary>
+            <param name="key">The key for the cache entry.</param>
+            <param name="createItem">The delegate function that will create the cache entry if it does not exist.</param>
+            <returns>The cache entry.</returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2.Contains(`0)">
+            <summary>
+            Determines whether the <see cref="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.LocalCache`2">LocalCache</see> contains the specified key.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider">
+             <summary>
+             Implementation of column master key store provider that allows client applications to access data when a 
+             column master key is stored in Microsoft Azure Key Vault. 
+            
+             For more information on Always Encrypted, please refer to: https://aka.ms/AlwaysEncrypted.
+            
+             A Column Encryption Key encrypted with certificate store provider should be decryptable by this provider and vice versa.
+             
+             Envelope Format for the encrypted column encryption key :
+                       version + keyPathLength + ciphertextLength + keyPath + ciphertext + signature
+             
+             - version: A single byte indicating the format version.
+             - keyPathLength: Length of the keyPath.
+             - ciphertextLength: ciphertext length
+             - keyPath: keyPath used to encrypt the column encryption key. This is only used for troubleshooting purposes and is not verified during decryption.
+             - ciphertext: Encrypted column encryption key
+             - signature: Signature of the entire byte array. Signature is validated before decrypting the column encryption key.
+             </summary>
+             <remarks>
+            	    <format type="text/markdown"><![CDATA[
+             ## Remarks
+             For more information, see: [Using the Azure Key Vault Provider](/sql/connect/ado-net/sql/sqlclient-support-always-encrypted#using-the-azure-key-vault-provider) 
+             ]]></format>
+             </remarks>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.ProviderName">
+            <summary>
+            Column Encryption Key Store Provider string
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.KeyCryptographer">
+            <summary>
+            Key storage and cryptography client
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.s_firstVersion">
+            <summary>
+            Algorithm version
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.TrustedEndPoints">
+            <summary>
+            List of Trusted Endpoints
+            
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider._columnEncryptionKeyCache">
+            <summary>
+            A cache of column encryption keys (once they are decrypted). This is useful for rapidly decrypting multiple data values.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider._columnMasterKeyMetadataSignatureVerificationCache">
+            <summary>
+            A cache for storing the results of signature verification of column master key metadata.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.ColumnEncryptionKeyCacheTtl">
+            <summary>
+            Gets or sets the lifespan of the decrypted column encryption key in the cache.
+            Once the timespan has elapsed, the decrypted column encryption key is discarded
+            and must be revalidated.
+            </summary>
+            <remarks>
+            Internally, there is a cache of column encryption keys (once they are decrypted).
+            This is useful for rapidly decrypting multiple data values. The default value is 2 hours.
+            Setting the <see cref="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.ColumnEncryptionKeyCacheTtl"/> to zero disables caching.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.#ctor(Azure.Core.TokenCredential)">
+            <summary>
+            Constructor that takes an implementation of Token Credential that is capable of providing an OAuth Token.
+            </summary>
+            <param name="tokenCredential"></param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.#ctor(Azure.Core.TokenCredential,System.String)">
+            <summary>
+            Constructor that takes an implementation of Token Credential that is capable of providing an OAuth Token and a trusted endpoint. 
+            </summary>
+            <param name="tokenCredential">Instance of an implementation of Token Credential that is capable of providing an OAuth Token.</param>
+            <param name="trustedEndPoint">TrustedEndpoint is used to validate the master key path.</param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.#ctor(Azure.Core.TokenCredential,System.String[])">
+            <summary>
+            Constructor that takes an instance of an implementation of Token Credential that is capable of providing an OAuth Token 
+            and an array of trusted endpoints.
+            </summary>
+            <param name="tokenCredential">Instance of an implementation of Token Credential that is capable of providing an OAuth Token</param>
+            <param name="trustedEndpoints">TrustedEndpoints are used to validate the master key path</param>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.SignColumnMasterKeyMetadata(System.String,System.Boolean)">
+            <summary>
+            Uses an asymmetric key identified by the key path to sign the master key metadata consisting of (masterKeyPath, allowEnclaveComputations bit, providerName).
+            </summary>
+            <param name="masterKeyPath">Complete path of an asymmetric key. Path format is specific to a key store provider.</param>
+            <param name="allowEnclaveComputations">Boolean indicating whether this key can be sent to a trusted enclave</param>
+            <returns>Encrypted column encryption key</returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.VerifyColumnMasterKeyMetadata(System.String,System.Boolean,System.Byte[])">
+            <summary>
+            Uses an asymmetric key identified by the key path to verify the master key metadata consisting of (masterKeyPath, allowEnclaveComputations bit, providerName).
+            </summary>
+            <param name="masterKeyPath">Complete path of an asymmetric key. Path format is specific to a key store provider.</param>
+            <param name="allowEnclaveComputations">Boolean indicating whether this key can be sent to trusted enclave</param>
+            <param name="signature">Signature for the master key metadata</param>
+            <returns>Boolean indicating whether the master key metadata can be verified based on the provided signature</returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.DecryptColumnEncryptionKey(System.String,System.String,System.Byte[])">
+            <summary>
+            This function uses the asymmetric key specified by the key path
+            and decrypts an encrypted CEK with RSA encryption algorithm.
+            </summary>
+            <param name="masterKeyPath">Complete path of an asymmetric key in Azure Key Vault</param>
+            <param name="encryptionAlgorithm">Asymmetric Key Encryption Algorithm</param>
+            <param name="encryptedColumnEncryptionKey">Encrypted Column Encryption Key</param>
+            <returns>Plain text column encryption key</returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.EncryptColumnEncryptionKey(System.String,System.String,System.Byte[])">
+            <summary>
+            This function uses the asymmetric key specified by the key path
+            and encrypts CEK with RSA encryption algorithm.
+            </summary>
+            <param name="masterKeyPath">Complete path of an asymmetric key in Azure Key Vault</param>
+            <param name="encryptionAlgorithm">Asymmetric Key Encryption Algorithm</param>
+            <param name="columnEncryptionKey">The plaintext column encryption key.</param>
+            <returns>Encrypted column encryption key</returns>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.ValidateNonEmptyAKVPath(System.String,System.Boolean)">
+            <summary>
+            Checks if the Azure Key Vault key path is Empty or Null (and raises exception if they are).
+            </summary>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.ToHexString(System.Byte[])">
+            <summary>
+            Converts the numeric value of each element of a specified array of bytes to its equivalent hexadecimal string representation.
+            </summary>
+            <param name="source">An array of bytes to convert.</param>
+            <returns>A string of hexadecimal characters</returns>
+            <remarks>
+            Produces a string of hexadecimal character pairs preceded with "0x", where each pair represents the corresponding element in value; for example, "0x7F2C4A00".
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.GetOrCreateColumnEncryptionKey(System.String,System.Func{System.Byte[]})">
+             <summary>
+             Returns the cached decrypted column encryption key, or unwraps the encrypted column encryption key if not present.
+             </summary>
+             <param name="encryptedColumnEncryptionKey">Encrypted Column Encryption Key</param>
+             <param name="createItem">The delegate function that will decrypt the encrypted column encryption key.</param>
+             <returns>The decrypted column encryption key.</returns>
+             <remarks>
+            
+             </remarks>
+        </member>
+        <member name="M:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.SqlColumnEncryptionAzureKeyVaultProvider.GetOrCreateSignatureVerificationResult(System.Tuple{System.String,System.Boolean,System.String},System.Func{System.Boolean})">
+            <summary>
+            Returns the cached signature verification result, or proceeds to verify if not present.
+            </summary>
+            <param name="keyInformation">The encryptionKeyId, allowEnclaveComputations and hexadecimal signature.</param>
+            <param name="createItem">The delegate function that will perform the verification.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.CipherTextLengthMismatch">
+            <summary>
+              Looks up a localized string similar to CipherText length does not match the RSA key size..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.EmptyArgumentInternal">
+            <summary>
+              Looks up a localized string similar to Internal error. Empty &apos;{0}&apos; specified..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.HashLengthMismatch">
+            <summary>
+              Looks up a localized string similar to Signed hash length does not match the RSA key size..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidAkvKeyPathTrustedTemplate">
+            <summary>
+              Looks up a localized string similar to Invalid Azure Key Vault key path specified: &apos;{0}&apos;. Valid trusted endpoints: {1}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidAkvPathTemplate">
+            <summary>
+              Looks up a localized string similar to Invalid Azure Key Vault key path specified: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidAkvUrlTemplate">
+            <summary>
+              Looks up a localized string similar to Invalid url specified: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidAlgorithmVersionTemplate">
+            <summary>
+              Looks up a localized string similar to Specified encrypted column encryption key contains an invalid encryption algorithm version &apos;{0}&apos;. Expected version is &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidCiphertextLengthTemplate">
+            <summary>
+              Looks up a localized string similar to The specified encrypted column encryption key&apos;s ciphertext length ({0}) does not match the ciphertext length ({1}) when using column master key (Azure Key Vault key) in &apos;{2}&apos;. The encrypted column encryption key may be corrupt, or the specified Azure Key Vault key path may be incorrect..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidKeyAlgorithm">
+            <summary>
+              Looks up a localized string similar to Invalid key encryption algorithm specified: &apos;{0}&apos;. Expected value: &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidSignature">
+            <summary>
+              Looks up a localized string similar to Invalid signature of the encrypted column encryption key computed..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidSignatureLengthTemplate">
+            <summary>
+              Looks up a localized string similar to The specified encrypted column encryption key&apos;s signature length ({0}) does not match the signature length ({1}) when using column master key (Azure Key Vault key) in &apos;{2}&apos;. The encrypted column encryption key may be corrupt, or the specified Azure Key Vault key path may be incorrect..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.InvalidSignatureTemplate">
+            <summary>
+              Looks up a localized string similar to The specified encrypted column encryption key signature does not match the signature computed with the column master key (Asymmetric key in Azure Key Vault) in &apos;{0}&apos;. The encrypted column encryption key may be corrupt, or the specified path may be incorrect..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NullOrWhitespaceForEach">
+            <summary>
+              Looks up a localized string similar to Invalid trusted endpoint specified: &apos;{0}&apos;; a trusted endpoint must have a value..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NonRsaKeyTemplate">
+            <summary>
+              Looks up a localized string similar to Cannot use a non-RSA key: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NullAkvPath">
+            <summary>
+              Looks up a localized string similar to Azure Key Vault key path cannot be null..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NullAlgorithm">
+            <summary>
+              Looks up a localized string similar to Key encryption algorithm cannot be null..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NullAlgorithmInternal">
+            <summary>
+              Looks up a localized string similar to Internal error: Key encryption algorithm cannot be null..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Data.SqlClient.AlwaysEncrypted.AzureKeyVaultProvider.Strings.NullHash">
+            <summary>
+              Looks up a localized string similar to Hash should not be null while decrypting encrypted column encryption key..
+            </summary>
+        </member>
+    </members>
+</doc>

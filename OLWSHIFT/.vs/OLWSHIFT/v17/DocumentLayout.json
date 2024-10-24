@@ -1,0 +1,525 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|c:\\users\\charb\\source\\repos\\olwshift\\frmrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmvoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmvendorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmvendorlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmvendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmvendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmsolditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmsolditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmsettle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmsettle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmsearchproductstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmsearchproductstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmreportsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmreportsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmqty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmqty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmmodifierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmmodifierlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmlookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmlookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmcategorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmcanceldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmcanceldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmbrandlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmbrandlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmadjustment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmadjustment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmsolditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341F0488-7F5A-40AF-89E8-D712020EFECD}|OLWSHIFT.csproj|solutionrelative:frmsolditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmVendor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVendor.cs",
+              "RelativeDocumentMoniker": "frmVendor.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVendor.cs [Design]",
+              "RelativeToolTip": "frmVendor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:39.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmRecords.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmRecords.cs",
+              "RelativeDocumentMoniker": "frmRecords.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmRecords.cs [Design]",
+              "RelativeToolTip": "frmRecords.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:58.815Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVoid.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVoid.cs",
+              "RelativeDocumentMoniker": "frmVoid.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVoid.cs [Design]",
+              "RelativeToolTip": "frmVoid.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:36.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmVendorList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVendorList.cs",
+              "RelativeDocumentMoniker": "frmVendorList.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmVendorList.cs [Design]",
+              "RelativeToolTip": "frmVendorList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:38.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmUserAccount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmUserAccount.cs",
+              "RelativeDocumentMoniker": "frmUserAccount.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmUserAccount.cs [Design]",
+              "RelativeToolTip": "frmUserAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:41.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmStore.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmStore.cs",
+              "RelativeDocumentMoniker": "frmStore.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmStore.cs [Design]",
+              "RelativeToolTip": "frmStore.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:43.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmStockIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmStockIn.cs",
+              "RelativeDocumentMoniker": "frmStockIn.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmStockIn.cs [Design]",
+              "RelativeToolTip": "frmStockIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:46.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmSoldItems.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSoldItems.cs",
+              "RelativeDocumentMoniker": "frmSoldItems.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSoldItems.cs [Design]",
+              "RelativeToolTip": "frmSoldItems.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:39.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSettle.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSettle.cs",
+              "RelativeDocumentMoniker": "frmSettle.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSettle.cs [Design]",
+              "RelativeToolTip": "frmSettle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:48.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmSecurity.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSecurity.cs",
+              "RelativeDocumentMoniker": "frmSecurity.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSecurity.cs [Design]",
+              "RelativeToolTip": "frmSecurity.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:50.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmSearchProductStockin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSearchProductStockin.cs",
+              "RelativeDocumentMoniker": "frmSearchProductStockin.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSearchProductStockin.cs [Design]",
+              "RelativeToolTip": "frmSearchProductStockin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:51.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmReportSold.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmReportSold.cs",
+              "RelativeDocumentMoniker": "frmReportSold.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmReportSold.cs [Design]",
+              "RelativeToolTip": "frmReportSold.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:55.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmReceipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmReceipt.cs",
+              "RelativeDocumentMoniker": "frmReceipt.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmReceipt.cs [Design]",
+              "RelativeToolTip": "frmReceipt.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:01.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmQty.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmQty.cs",
+              "RelativeDocumentMoniker": "frmQty.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmQty.cs [Design]",
+              "RelativeToolTip": "frmQty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:02.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmProductList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmProductList.cs",
+              "RelativeDocumentMoniker": "frmProductList.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmProductList.cs [Design]",
+              "RelativeToolTip": "frmProductList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:03.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmProduct.cs",
+              "RelativeDocumentMoniker": "frmProduct.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmProduct.cs [Design]",
+              "RelativeToolTip": "frmProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:07.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmPOS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmPOS.cs",
+              "RelativeDocumentMoniker": "frmPOS.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmPOS.cs [Design]",
+              "RelativeToolTip": "frmPOS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:40:37.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmModifierList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmModifierList.cs",
+              "RelativeDocumentMoniker": "frmModifierList.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmModifierList.cs [Design]",
+              "RelativeToolTip": "frmModifierList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:13:36.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmModifier.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmModifier.cs",
+              "RelativeDocumentMoniker": "frmModifier.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmModifier.cs [Design]",
+              "RelativeToolTip": "frmModifier.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:12.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmLookUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmLookUp.cs",
+              "RelativeDocumentMoniker": "frmLookUp.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmLookUp.cs [Design]",
+              "RelativeToolTip": "frmLookUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:13.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmInventoryReports.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmInventoryReports.cs",
+              "RelativeDocumentMoniker": "frmInventoryReports.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmInventoryReports.cs [Design]",
+              "RelativeToolTip": "frmInventoryReports.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:14.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmDiscount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmDiscount.cs",
+              "RelativeDocumentMoniker": "frmDiscount.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmDiscount.cs [Design]",
+              "RelativeToolTip": "frmDiscount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:16.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmDashboard.cs",
+              "RelativeDocumentMoniker": "frmDashboard.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmDashboard.cs [Design]",
+              "RelativeToolTip": "frmDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:18.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmChart.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmChart.cs",
+              "RelativeDocumentMoniker": "frmChart.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmChart.cs [Design]",
+              "RelativeToolTip": "frmChart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:20.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmChangePassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmChangePassword.cs",
+              "RelativeDocumentMoniker": "frmChangePassword.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmChangePassword.cs [Design]",
+              "RelativeToolTip": "frmChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:21.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmCategoryList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCategoryList.cs",
+              "RelativeDocumentMoniker": "frmCategoryList.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCategoryList.cs [Design]",
+              "RelativeToolTip": "frmCategoryList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:00:56.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmCategory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCategory.cs",
+              "RelativeDocumentMoniker": "frmCategory.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCategory.cs [Design]",
+              "RelativeToolTip": "frmCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:25.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmCancelDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCancelDetails.cs",
+              "RelativeDocumentMoniker": "frmCancelDetails.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmCancelDetails.cs [Design]",
+              "RelativeToolTip": "frmCancelDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:27.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmBrandList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmBrandList.cs",
+              "RelativeDocumentMoniker": "frmBrandList.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmBrandList.cs [Design]",
+              "RelativeToolTip": "frmBrandList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:18:06.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmBrand.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmBrand.cs",
+              "RelativeDocumentMoniker": "frmBrand.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmBrand.cs [Design]",
+              "RelativeToolTip": "frmBrand.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:30.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmAdjustment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmAdjustment.cs",
+              "RelativeDocumentMoniker": "frmAdjustment.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmAdjustment.cs [Design]",
+              "RelativeToolTip": "frmAdjustment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:21:31.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmSoldItems.cs",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSoldItems.cs",
+              "RelativeDocumentMoniker": "frmSoldItems.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\frmSoldItems.cs",
+              "RelativeToolTip": "frmSoldItems.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAD4v34AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:20:07.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\charb\\source\\repos\\OLWSHIFT\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:38:37.653Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
